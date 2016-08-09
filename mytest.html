@@ -1,0 +1,65 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+	<script type="text/javascript" language="javascript" src="myscript.js"></script>
+</head>
+<body>
+<div>
+	<div id="top">
+		<div id="gflogo"> 
+        <!--p>11</p-->
+		</div>
+		<div id="separate">
+		<!--p>22</p-->
+		</div>
+		<div id="nboptext">
+		<!--p>33</p-->
+		</div>
+	</div>
+	<div id=middle>
+		<div id="clear">
+			<div id="welcome">
+				<p>欢迎您,请登录</p>
+			</div>
+			<div id="login-name">
+				<input id="login-name-input" type="text" value="请输入用户名" onfocus="nameshow()">
+			</div>
+			<div id="password">
+				<input id="password-input" type="text" value="请输入密码" onfocus="passwordshow()">
+			</div>
+			<div id="button">
+				<input id="button-input" type="button" name="login" value="登录" onclick="logincheck()">
+			</div>
+			<div id="forget">
+				<p>忘记密码</p>
+			</div>
+			<div id="wrong">
+				<div id="wrongicon">
+
+				</div>
+				<div id="wrongtext">
+				<p>对不起,请输入正确的登录名</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="bottom">
+		<div id="wifi">
+
+		</div>
+		<div id="time">
+
+		</div>
+		<div id="showtimes">
+			<script language="javascript">
+			show_cur_times();
+			//设置1秒调用一次show_cur_times函数
+			setInterval("show_cur_times()",100);
+			</script>
+		</div>
+
+	</div>
+</div>
+</body>
+</html>

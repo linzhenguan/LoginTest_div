@@ -1,0 +1,192 @@
+*
+{
+	/*border-style: solid;*/
+
+
+}
+
+/*顶部横条*/
+#top{
+	margin-left:105px;
+}
+/*顶部logo*/
+#top #gflogo{
+	width: 40px;
+	height: 35px;
+	background-image: url(images/logo.gif);
+	background-repeat:no-repeat;
+	float: left;/*div盒子同行并排显示*/
+}
+/*顶部竖线*/
+#top #separate{
+	width: 1px;
+	height: 35px;
+	background-image: url(images/yishu.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;/*div盒子同行并排显示*/
+}
+/*顶部字体nbop2.0*/
+#top #nboptext{
+	width: 140px;
+	height: 35px;
+	background-image: url(images/ziti_nbop.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;/*div盒子同行并排显示*/
+}
+/*中部*/
+#middle{
+	margin-left:105px;
+	margin-top:5px;
+	width: 1200px;
+	height: 650px;
+	background-image: url(images/beijing.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+}
+/*中间的透明部分*/
+#middle #clear{
+	margin-left:400px;
+	margin-top:175px;
+	width: 400px;
+	height: 300px;
+	background-color: rgba(202,221,239,0.4);
+}
+/*欢迎登陆*/
+#middle #clear #welcome{
+	margin-left: 140px;
+	margin-top: 6px;
+	width: 120px;
+	height: 40px;
+	font-size: 18px;
+	font-family: 'Microsoft JhengHei';
+	color: #2a98eb;
+	float: left;
+}
+/*用户名*/
+#middle #clear #login-name{
+	margin-left: 95px;
+	margin-top: 30px;
+	width: 200px;
+	height: 30px;
+	float: left;
+}
+/*定义用户名大小*/
+#middle #clear #login-name #login-name-input{
+	width: 200px;
+	height: 30px;
+	color: grey;
+}
+/*密码*/
+#middle #clear #password{
+	margin-left: 95px;
+	margin-top: 15px;
+	width: 200px;
+	height: 30px;
+	float: left;
+}
+/*定义密码框大小*/
+#middle #clear #password #password-input{
+	width: 200px;
+	height: 30px;
+	color: grey;
+}
+/*密码*/
+#middle #clear #button{
+	margin-left: 95px;
+	margin-top: 30px;
+	width: 200px;
+	height: 30px;
+	float: left;
+}
+/*定义登陆按钮大小*/
+#middle #clear #button #button-input{
+	width: 200px;
+	height: 30px;
+	border:0;
+	border-radius:4px;
+	background: deepskyblue;
+	color:white;
+	font-size: large;
+	font-family: 'Microsoft JhengHei';
+}
+/*忘记密码*/
+#middle #clear #forget{
+	margin-left: 245px;
+	margin-top: 8px;
+	width: 120px;
+	height: 40px;
+	font-size: 10px;
+	font-family: 'Microsoft JhengHei';
+	color: white;
+	float: left;
+}
+/*登录报错*/
+#middle #clear #wrong{
+	margin-left: 0px;
+	width: 400px;
+	height: 40px;
+	background-color:rgba(145,200,204,0.4);
+	float: left;
+	display: none;/*默认不显示*/
+
+}
+/*登录报错图标*/
+#middle #clear #wrong #wrongicon{
+	margin-top: 12px;
+	margin-left: 110px;
+	width: 18px;
+	height: 18px;
+	background-image: url("images/icon.jpg");
+	background-repeat: no-repeat;
+	float: left;
+}
+/*登录报错文字*/
+#middle #clear #wrong #wrongtext{
+	margin-top: 2px;
+	margin-left: 3px;
+	font-size: 0.5em;
+	color:red;
+	float: left;
+}
+/*底部*/
+#bottom{
+	margin-left:105px;
+	margin-top:0px;
+	width: 1200px;
+	height: 25px;
+	background-color: #23879d;
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+}
+/*底部wifi图案*/
+#bottom #wifi{
+	margin-top: 7px;
+	margin-left: 2px;
+	width: 20px;
+	height: 20px;
+	background-image: url("images/wifi.png");
+	background-repeat: no-repeat;
+	float: left;
+}
+/*底部时间图案*/
+#bottom #time{
+	margin-top: 6px;
+	margin-left: 0px;
+	width: 20px;
+	height: 20px;
+	background-image: url("images/time.png");
+	background-repeat: no-repeat;
+	float: left;
+
+}
+/*动态显示时间*/
+#bottom #showtimes{
+	margin-top: 5px;
+	float: left;
+	font-size: 0.6em;
+	color: white;
+}
